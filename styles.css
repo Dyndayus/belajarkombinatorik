@@ -1,0 +1,245 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:  #86b8f0;
+  
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(57, 87, 180);
+    font-weight: bold;
+}
+
+.appointment-button {
+    position: relative; /* Tetap di dalam pembungkus */
+        margin-top: 10px; /* Berikan jarak antara tombol dan gambar */
+        padding: 10px 20px;
+        background-color: white;
+        color: #007ACC;
+        border: 2px solid #007ACC;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    padding: 40px;
+    background-color: #86b8f0;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.find-doctors-button {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-image-wrapper{
+        display: flex;
+        flex-direction: column; /* Menjaga tombol dan gambar dalam satu kolom */
+        align-items: flex-end; /* Menempatkan semuanya ke kanan */
+    }
+    
+    .hero-image {
+        max-width: 300px; /* Atur ukuran gambar */
+       right: 100%;
+        border-radius: 50%; /* Untuk estetika */
+    }
+    
+.services {
+    padding: 30px;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.service-item {
+    background-color: #007ACC;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.featured-service {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.learn-more-button {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.team {
+    padding: 30px;
+    text-align: center;
+    background-color: #88b6eb
+}
+
+.doctor-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.doctor-item {
+    text-align: center;
+}
+
+.doctor-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.kelompok-photo {
+    border-radius: 15%;
+    width:fit-content;
+    height: 300px;
+    object-fit: cover;
+}
+
+.see-all-button {
+    margin-top: 20px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* styles.css */
+.tubuh {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.muatan {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px; /* Lebar tetap */
+    height: 200px; /* Tinggi tetap */
+    text-align: center;
+    color: #333;
+    overflow: hidden; /* Teks yang melebihi kotak akan disembunyikan */
+   
+}
+
+.card .icon{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    align-self: center;
+   
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.btn {
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 15px;
+    background-color: #007ACC;
+    color: #ffffff;
+    border: 2px solid #007ACC;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  }

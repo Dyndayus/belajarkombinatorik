@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Warna latar belakang biru muda */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.member-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.member {
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 50px; /* Ubah ukuran sesuai kebutuhan */
+    height: 50px; /* Ubah ukuran sesuai kebutuhan */
+    margin-right: 15px;
+    object-fit:cover;
+}
+
+.member span {
+    font-size: 18px;
+}
